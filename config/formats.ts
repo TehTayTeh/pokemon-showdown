@@ -4289,9 +4289,10 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 2] NC 2000",
 		mod: 'gen2stadium2',
 		searchShow: false,
+		bestOfDefault: true,
 		ruleset: [
 			'Picked Team Size = 3', 'Min Level = 50', 'Max Level = 55', 'Max Total Level = 155',
-			'Obtainable', 'Stadium Sleep Clause', 'Freeze Clause Mod', 'Species Clause', 'Item Clause = 1', 'Endless Battle Clause', 'Cancel Mod', 'Event Moves Clause', 'Nickname Clause', 'Team Preview', 'NC 2000 Move Legality',
+			'Obtainable', 'Stadium Sleep Clause', 'Freeze Clause Mod', 'Species Clause', 'Item Clause = 1', 'Endless Battle Clause', 'Cancel Mod', 'Event Moves Clause', 'Nickname Clause', 'Team Preview',
 		],
 		banlist: ['Uber'],
 	},
@@ -4383,6 +4384,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 1] NC 1997",
 		mod: 'gen1jpn',
 		searchShow: false,
+		bestOfDefault: true,
 		ruleset: [
 			'Picked Team Size = 3', 'Min Level = 50', 'Max Level = 55', 'Max Total Level = 155',
 			'Obtainable', 'Team Preview', 'Stadium Sleep Clause', 'Species Clause', 'Nickname Clause', 'HP Percentage Mod', 'Cancel Mod', 'NC 1997 Move Legality',
